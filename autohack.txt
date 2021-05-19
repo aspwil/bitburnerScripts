@@ -1,0 +1,9 @@
+var name = getHostname();
+while(true){
+    if(getServerMoneyAvailable(name)>getServerMaxMoney(name)/2){
+       hack(name);
+    } else {
+        weaken(name);
+        grow(name);
+    }
+}
